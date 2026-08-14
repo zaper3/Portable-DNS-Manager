@@ -1,0 +1,53 @@
+Portable DNS Manager v1.0.0 — Final Audit
+Date: 2026-08-14
+
+WINDOWS
+- Final BAT: PASS
+- Single exact embedded-payload marker: PASS
+- No stale RC/legacy launcher fragment in final BAT: PASS
+- 43 unique provider profiles: PASS
+- Embedded IPv4/IPv6 syntax validation: PASS
+- DoH endpoint shape validation: PASS
+- Elevation before PowerShell extraction: PASS
+- Elevated runtime path under ProgramData: PASS
+- Temporary engine cleanup: PASS
+- Interface-index based DNS operations: PASS
+- DNS backup / restore vs DHCP separation: PASS
+- Managed hosts block + backup: PASS
+- Public-IP lookup opt-in: PASS
+- No RC version strings: PASS
+- User-tested RC4 functional baseline: PASS
+
+GNU/LINUX
+- bash -n: PASS
+- Basic startup/menu/exit smoke test: PASS
+- 43-profile catalog: PASS
+- NetworkManager/nmcli mutation boundary: PASS
+- sudo only for mutations: PASS
+- DNS backup/restore: PASS
+- Managed /etc/hosts block: PASS
+- Public-IP lookup opt-in: PASS
+- No background DoH proxy/daemon: PASS
+
+iOS / iPadOS
+- 37 DoH profiles generated: PASS
+- XML plist parse round-trip: PASS
+- com.apple.dnsSettings.managed payload: PASS
+- DNSProtocol HTTPS: PASS
+- ServerURL present: PASS
+- Deterministic PayloadUUID values: PASS
+- Unsigned-profile disclosure: PASS
+- Per-profile SHA-256 list: PASS
+
+DOCUMENTATION / SUPPLY CHAIN
+- README bilingual: PASS
+- SECURITY: PASS
+- PRIVACY: PASS
+- AUTHENTICITY: PASS
+- PROVIDERS catalog: PASS
+- CHANGELOG: PASS
+- Release notes: PASS
+- Source-available license: PASS
+- Release SHA256SUMS: PASS
+
+Known limitations are documented and intentionally accepted for v1.0.0.
