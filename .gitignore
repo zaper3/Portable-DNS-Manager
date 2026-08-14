@@ -1,0 +1,5 @@
+*.tmp
+*.bak
+_PortableDNSManager/
+.DS_Store
+Thumbs.db
