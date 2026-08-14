@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.adguard-dns.com/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>94.140.14.14</string>
+					<string>94.140.15.15</string>
+					<string>2a10:50c0::ad1:ff</string>
+					<string>2a10:50c0::ad2:ff</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Portable DNS Manager: AdGuard DNS Default (DNS over HTTPS).</string>
+			<key>PayloadDisplayName</key>
+			<string>AdGuard DNS Default</string>
+			<key>PayloadIdentifier</key>
+			<string>com.zaper3.portablednsmanager.dns.adguard-dns-default.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>B1A8BFD1-54A0-5C17-854B-2004E6D4A2A1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Portable DNS Manager v1.0.0 — AdGuard DNS Default. Unsigned profile; install only from the official repository/release.</string>
+	<key>PayloadDisplayName</key>
+	<string>Portable DNS Manager - AdGuard DNS Default</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zaper3.portablednsmanager.dns.adguard-dns-default</string>
+	<key>PayloadOrganization</key>
+	<string>zaper3 / Portable DNS Manager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>7A9D882B-83DA-5027-8F06-2CB6923AA0E6</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

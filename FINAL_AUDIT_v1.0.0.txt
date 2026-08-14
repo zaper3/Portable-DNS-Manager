@@ -2,52 +2,37 @@ Portable DNS Manager v1.0.0 — Final Audit
 Date: 2026-08-14
 
 WINDOWS
-- Final BAT: PASS
-- Single exact embedded-payload marker: PASS
-- No stale RC/legacy launcher fragment in final BAT: PASS
-- 43 unique provider profiles: PASS
-- Embedded IPv4/IPv6 syntax validation: PASS
-- DoH endpoint shape validation: PASS
-- Elevation before PowerShell extraction: PASS
-- Elevated runtime path under ProgramData: PASS
-- Temporary engine cleanup: PASS
-- Interface-index based DNS operations: PASS
-- DNS backup / restore vs DHCP separation: PASS
-- Managed hosts block + backup: PASS
-- Public-IP lookup opt-in: PASS
-- No RC version strings: PASS
 - User-tested RC4 functional baseline: PASS
+- Final source structural audit: PASS
+- One embedded PowerShell payload marker: PASS
+- 43 unique DNS provider profiles: PASS
+- 154 embedded IPv4/IPv6 addresses validated: PASS
+- Native DnsClient integration present: PASS
+- Elevated runtime bootstrap present: PASS
+- DNS backup / restore separated from DHCP reset: PASS
+- Managed hosts block + backup: PASS
+- No RC version strings: PASS
+- SHA-256: a97edd7db948b25da8d767fce3135867ea4a4c93ff258e59b968e0cc12b37e57
 
 GNU/LINUX
 - bash -n: PASS
-- Basic startup/menu/exit smoke test: PASS
-- 43-profile catalog: PASS
 - NetworkManager/nmcli mutation boundary: PASS
-- sudo only for mutations: PASS
 - DNS backup/restore: PASS
 - Managed /etc/hosts block: PASS
-- Public-IP lookup opt-in: PASS
 - No background DoH proxy/daemon: PASS
+- SHA-256: 1a1aeffc1fb2833af2e9bc1369b39aa54d4c522c3cd036bb66d9eaf2fd8abd99
 
 iOS / iPadOS
-- 37 DoH profiles generated: PASS
-- XML plist parse round-trip: PASS
+- DoH profiles generated: 37
+- XML plist round-trip validation: PASS
 - com.apple.dnsSettings.managed payload: PASS
 - DNSProtocol HTTPS: PASS
-- ServerURL present: PASS
-- Deterministic PayloadUUID values: PASS
 - Unsigned-profile disclosure: PASS
 - Per-profile SHA-256 list: PASS
 
 DOCUMENTATION / SUPPLY CHAIN
 - README bilingual: PASS
-- SECURITY: PASS
-- PRIVACY: PASS
-- AUTHENTICITY: PASS
+- SECURITY / PRIVACY / AUTHENTICITY: PASS
 - PROVIDERS catalog: PASS
-- CHANGELOG: PASS
-- Release notes: PASS
+- CHANGELOG / Release notes: PASS
 - Source-available license: PASS
-- Release SHA256SUMS: PASS
-
-Known limitations are documented and intentionally accepted for v1.0.0.

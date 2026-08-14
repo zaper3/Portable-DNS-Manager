@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://extended.dns.mullvad.net/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>194.242.2.5</string>
+					<string>2a07:e340::5</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Portable DNS Manager: Mullvad Encrypted DNS - Extended (DNS over HTTPS).</string>
+			<key>PayloadDisplayName</key>
+			<string>Mullvad Encrypted DNS - Extended</string>
+			<key>PayloadIdentifier</key>
+			<string>com.zaper3.portablednsmanager.dns.mullvad-encrypted-dns-extended.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>1EF0B2EE-2021-56E8-B48E-0184462824F8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Portable DNS Manager v1.0.0 — Mullvad Encrypted DNS - Extended. Unsigned profile; install only from the official repository/release.</string>
+	<key>PayloadDisplayName</key>
+	<string>Portable DNS Manager - Mullvad Encrypted DNS - Extended</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zaper3.portablednsmanager.dns.mullvad-encrypted-dns-extended</string>
+	<key>PayloadOrganization</key>
+	<string>zaper3 / Portable DNS Manager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F62FDF69-D4CB-5F81-A913-0815CC8875BA</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

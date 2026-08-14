@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://family.dot.dns.yandex.net/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>77.88.8.7</string>
+					<string>77.88.8.3</string>
+					<string>2a02:6b8::feed:a11</string>
+					<string>2a02:6b8:0:1::feed:a11</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Portable DNS Manager: Yandex DNS Family (DNS over HTTPS).</string>
+			<key>PayloadDisplayName</key>
+			<string>Yandex DNS Family</string>
+			<key>PayloadIdentifier</key>
+			<string>com.zaper3.portablednsmanager.dns.yandex-dns-family.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>DB2F9D46-6AE8-53B1-BE95-21713B5AFC8B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Portable DNS Manager v1.0.0 — Yandex DNS Family. Unsigned profile; install only from the official repository/release.</string>
+	<key>PayloadDisplayName</key>
+	<string>Portable DNS Manager - Yandex DNS Family</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zaper3.portablednsmanager.dns.yandex-dns-family</string>
+	<key>PayloadOrganization</key>
+	<string>zaper3 / Portable DNS Manager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>CA551A42-AE83-5705-95EF-3754DAAE82D3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://adblock.dns.mullvad.net/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>194.242.2.3</string>
+					<string>2a07:e340::3</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Portable DNS Manager: Mullvad Encrypted DNS - Ads &amp; Trackers (DNS over HTTPS).</string>
+			<key>PayloadDisplayName</key>
+			<string>Mullvad Encrypted DNS - Ads &amp; Trackers</string>
+			<key>PayloadIdentifier</key>
+			<string>com.zaper3.portablednsmanager.dns.mullvad-encrypted-dns-ads-trackers.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>19C709D4-CFCE-50C2-A4FB-28731185E992</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Portable DNS Manager v1.0.0 — Mullvad Encrypted DNS - Ads &amp; Trackers. Unsigned profile; install only from the official repository/release.</string>
+	<key>PayloadDisplayName</key>
+	<string>Portable DNS Manager - Mullvad Encrypted DNS - Ads &amp; Trackers</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zaper3.portablednsmanager.dns.mullvad-encrypted-dns-ads-trackers</string>
+	<key>PayloadOrganization</key>
+	<string>zaper3 / Portable DNS Manager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>8970181E-6A9D-5306-8167-80A764684382</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

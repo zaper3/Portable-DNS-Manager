@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns12.quad9.net/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>9.9.9.12</string>
+					<string>149.112.112.12</string>
+					<string>2620:fe::12</string>
+					<string>2620:fe::fe:12</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Portable DNS Manager: Quad9 Unfiltered + ECS (DNS over HTTPS).</string>
+			<key>PayloadDisplayName</key>
+			<string>Quad9 Unfiltered + ECS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.zaper3.portablednsmanager.dns.quad9-unfiltered-ecs.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>330978FD-3870-56CA-B8E8-7CDA671DF17E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Portable DNS Manager v1.0.0 — Quad9 Unfiltered + ECS. Unsigned profile; install only from the official repository/release.</string>
+	<key>PayloadDisplayName</key>
+	<string>Portable DNS Manager - Quad9 Unfiltered + ECS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zaper3.portablednsmanager.dns.quad9-unfiltered-ecs</string>
+	<key>PayloadOrganization</key>
+	<string>zaper3 / Portable DNS Manager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>179625DA-7E4E-5D15-A1B5-A1442A6CBB86</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

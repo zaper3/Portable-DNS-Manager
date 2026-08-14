@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://noads.joindns4.eu/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>86.54.11.13</string>
+					<string>86.54.11.213</string>
+					<string>2a13:1001::86:54:11:13</string>
+					<string>2a13:1001::86:54:11:213</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Portable DNS Manager: DNS4EU Protective + Ads (DNS over HTTPS).</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS4EU Protective + Ads</string>
+			<key>PayloadIdentifier</key>
+			<string>com.zaper3.portablednsmanager.dns.dns4eu-protective-ads.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>526195E4-59A9-5BBD-8E89-BAD8A7AD274E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Portable DNS Manager v1.0.0 — DNS4EU Protective + Ads. Unsigned profile; install only from the official repository/release.</string>
+	<key>PayloadDisplayName</key>
+	<string>Portable DNS Manager - DNS4EU Protective + Ads</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zaper3.portablednsmanager.dns.dns4eu-protective-ads</string>
+	<key>PayloadOrganization</key>
+	<string>zaper3 / Portable DNS Manager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1F033264-0510-5F3E-AA2B-ECDFA2026F65</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

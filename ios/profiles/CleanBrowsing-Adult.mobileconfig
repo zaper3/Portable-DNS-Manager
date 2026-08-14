@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://doh.cleanbrowsing.org/doh/adult-filter/</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>185.228.168.10</string>
+					<string>185.228.169.11</string>
+					<string>2a0d:2a00:1::1</string>
+					<string>2a0d:2a00:2::1</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Portable DNS Manager: CleanBrowsing Adult (DNS over HTTPS).</string>
+			<key>PayloadDisplayName</key>
+			<string>CleanBrowsing Adult</string>
+			<key>PayloadIdentifier</key>
+			<string>com.zaper3.portablednsmanager.dns.cleanbrowsing-adult.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>9C126CB6-12A8-545C-8D9B-F34D63BC4872</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Portable DNS Manager v1.0.0 — CleanBrowsing Adult. Unsigned profile; install only from the official repository/release.</string>
+	<key>PayloadDisplayName</key>
+	<string>Portable DNS Manager - CleanBrowsing Adult</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zaper3.portablednsmanager.dns.cleanbrowsing-adult</string>
+	<key>PayloadOrganization</key>
+	<string>zaper3 / Portable DNS Manager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A4A07FE8-191F-5EFB-80F1-C351C10E0564</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

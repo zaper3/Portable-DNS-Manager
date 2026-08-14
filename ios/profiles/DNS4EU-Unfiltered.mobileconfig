@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://unfiltered.joindns4.eu/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>86.54.11.100</string>
+					<string>86.54.11.200</string>
+					<string>2a13:1001::86:54:11:100</string>
+					<string>2a13:1001::86:54:11:200</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Portable DNS Manager: DNS4EU Unfiltered (DNS over HTTPS).</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS4EU Unfiltered</string>
+			<key>PayloadIdentifier</key>
+			<string>com.zaper3.portablednsmanager.dns.dns4eu-unfiltered.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>ACE60917-2319-5C4A-A9DB-254B4CBF24EE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Portable DNS Manager v1.0.0 — DNS4EU Unfiltered. Unsigned profile; install only from the official repository/release.</string>
+	<key>PayloadDisplayName</key>
+	<string>Portable DNS Manager - DNS4EU Unfiltered</string>
+	<key>PayloadIdentifier</key>
+	<string>com.zaper3.portablednsmanager.dns.dns4eu-unfiltered</string>
+	<key>PayloadOrganization</key>
+	<string>zaper3 / Portable DNS Manager</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C19B3464-0BBB-5EDA-9227-4D16B7A20898</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
